@@ -31,7 +31,7 @@ function Header() {
 
   return (
     <>
-      <header className="flex justify-between items-center gap-4 2xl:max-w-[100rem] 2xl:mx-auto">
+      <header className="flex justify-between items-center gap-4 overflow-clip 2xl:max-w-[100rem] 2xl:mx-auto">
         <div className="">
           <img 
             src="images/alowishus-logo.png" 
