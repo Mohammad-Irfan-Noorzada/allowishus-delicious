@@ -1,12 +1,57 @@
-# React + Vite
+# ☕️ Allowishus Delicious – Landing Page Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Live site 👉 [https://mohammad-irfan-noorzada.github.io/allowishus-delicious/](https://mohammad-irfan-noorzada.github.io/allowishus-delicious/)
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📸 Overview
 
-## Expanding the ESLint configuration
+A beautifully designed coffee shop landing page based on a Figma concept.  
+This project helped me improve my frontend design skills and learn how to translate pixel-perfect UI into real, responsive web components using **Tailwind CSS** and **React**.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+> ✨ *This is my favorite project so far — clean, stylish, and fully responsive.*
+
+---
+
+## 🚀 Features
+
+- Fully responsive layout (mobile → desktop)
+- Smooth transitions and hover effects
+- Modern UI with Tailwind CSS
+- Real images and icon usage
+- Clean React components
+- Dummy "Order Now" buttons (Frontend-only)
+
+---
+
+## 🛠️ Tech Stack
+
+- React
+- Tailwind CSS
+- Vite
+- GitHub Pages (for deployment)
+
+---
+
+## ⚠️ Note
+
+This project is **frontend only** — the "Order Now" and similar buttons are **non-functional** and used for UI purposes only.
+
+I do **not own** the brand "Allowishus Delicious".  
+This project was built **for learning and practice** based on a free Figma design.
+
+---
+
+## 📚 What I Learned
+
+- How to build pixel-perfect landing pages from Figma designs
+- Advanced Tailwind layout techniques
+- Responsive typography with `clamp()`
+- Use of absolute positioning and transform utilities
+- Managing assets and structure in React projects
+- Better understanding of clean code and structure
+
+---
+
+Made with ❤️ by **Mohammad Irfan Noorzada**  
+
