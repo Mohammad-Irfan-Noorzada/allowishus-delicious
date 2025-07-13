@@ -35,7 +35,7 @@ const sellings = [
 function SellingCoffee() {
   return (
     <>
-      <section className="relative mt-12 md:mt-16 2xl:max-w-[96rem] 2xl:mx-auto">
+      <section className="relative mt-12 md:mt-16 2xl:max-w-[96rem] 2xl:mx-auto overflow-clip">
 
         <img 
           src="images/2bfd2f572d76b2164731d5885831e1dc2c6217a8.png" 

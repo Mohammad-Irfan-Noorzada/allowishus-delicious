@@ -18,6 +18,7 @@ body {
     font-family: 'Jost';
     background-color: hsla(220, 10%, 94%, 1);
     padding: 1.5rem;
+    min-height: 100vh;
 }
 
 @media (min-width: 32em) {

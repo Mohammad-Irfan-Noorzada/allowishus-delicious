@@ -31,7 +31,7 @@ function Header() {
 
   return (
     <>
-      <header className="flex justify-between items-center gap-4 2xl:max-w-[100rem] 2xl:mx-auto">
+      <header className="flex justify-between items-center gap-4 overflow-hidden 2xl:max-w-[100rem] 2xl:mx-auto">
         <div className="">
           <img 
             src="images/alowishus-logo.png" 
@@ -52,9 +52,9 @@ function Header() {
           </div>
         )}
         
-        <nav className={`absolute md:relative flex flex-col md:flex-row md:items-center gap-8 xl:gap-10 bg-neutral-veryLightGray md:bg-transparent pt-24 
-          p-8 md:p-0 top-0 w-[75%] md:w-auto h-screen md:h-auto md:right-0 shadow-lg shadow-neutral-ultraLightGray md:shadow-none transition-all duration-700 
-          z-20 md:z-0 text-[1.125rem] md:text-[0.9375rem] font-medium text-neutral-veryDarkGray ${isOpen ? "right-0" : '-right-[100%]'}`}>
+        <nav className={`md:relative flex flex-col md:flex-row md:items-center gap-8 xl:gap-10 bg-neutral-veryLightGray md:bg-transparent pt-24 
+          p-8 md:p-0 top-0 fixed right-0 h-full w-3/4 md:w-auto md:h-auto md:right-0 shadow-lg shadow-neutral-ultraLightGray md:shadow-none transition-all duration-700 
+          z-20 md:z-0 text-[1.125rem] md:text-[0.9375rem] font-medium text-neutral-veryDarkGray ${isOpen ? 'translate-x-0' : 'translate-x-full md:translate-x-0'}`}>
           <ul className="flex flex-col md:flex-row gap-6 md:gap-8 xl:gap-10">
             <li><a href="#" className="hover:underline">Cafe Menu</a></li>
             <li><a href="#" className="hover:underline">About Us</a></li>
