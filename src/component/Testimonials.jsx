@@ -23,14 +23,8 @@ const costumers = [
 function Testimonials() {
   return (
     <>
-      <section className="relative flex flex-col-reverse items-center lg:items-start lg:flex-row lg:justify-between gap-10 lg:gap-6 mt-24 md:mt-10 
-        2xl:max-w-[96rem] 2xl:mx-auto">
-
-        <img 
-          src="images/2bfd2f572d76b2164731d5885831e1dc2c6217a8.png" 
-          alt="coffee"
-          className="absolute hidden md:block lg:w-[24rem] lg:-top-40 md:-top-24 md:w-[26rem] md:-left-44 lg:-left-56 xl:-top-60 xl:-left-52 blur-sm" 
-        />
+      <section id="customers" className="relative flex flex-col-reverse items-center lg:items-start lg:flex-row lg:justify-between gap-10 lg:gap-6 mt-24 md:mt-10 
+        2xl:max-w-[96rem] 2xl:mx-auto scroll-mt-32 overflow-hidden">
 
         <div className="grid md:grid-cols-2 max-w-[28.125rem] md:max-w-[46.875rem] w-full gap-6 z-10">
           {costumers.map((costumer, id) => (
@@ -93,7 +87,7 @@ function Testimonials() {
         <img 
           src="images/8a4bc2a677e8dad6745d815c474ea85749d69062.png" 
           alt="" 
-          className="absolute hidden lg:block lg:w-[40rem] xl:w-[45rem] lg:-bottom-36 lg:-right-[32rem] xl:-bottom-44 xl:-right-[38rem] transform rotate-[8deg]"
+          className="absolute hidden lg:block lg:w-[40rem] xl:w-[45rem] lg:-bottom-36 lg:-right-[28rem] xl:-bottom-36 xl:-right-[30rem] transform rotate-[8deg]"
         />
       </section>
     </>

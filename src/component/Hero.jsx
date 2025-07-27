@@ -4,8 +4,8 @@ function Hero() {
   
   return (
     <>
-      <section className="flex flex-col justify-between md:flex-row md:items-center text-center md:text-start pt-12 sm:pt-16 lg:pt-24 gap-16 
-        2xl:max-w-[100rem] 2xl:mx-auto 2xl:justify-center">
+      <section id="home" className="flex flex-col justify-between md:flex-row md:items-center text-center md:text-start pt-20 sm:pt-24 lg:pt-28 gap-16 
+        2xl:max-w-[100rem] 2xl:mx-auto 2xl:justify-center scroll-mt-20">
         <div className="max-w-[30rem] sm:max-w-[35rem] md:max-w-[32rem] mx-auto leading-tight 2xl:max-w-[40rem]">
           <h1 className="text-[clamp(2.4rem,8vw,4rem)] md:text-[clamp(2.5rem,7vw,7.75rem)] font-extrabold leading-[1.2]">
             Alowishus Delicious Coffee

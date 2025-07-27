@@ -29,8 +29,8 @@ const allowishuses = [
 function Alowishus() {
   return (
     <>
-      <section className="relative mt-12 pt-12 px-4 lg:pt-28 bg-gradient-to-t to-neutral-ultraLightGray from-neutral-veryLightGray rounded-e-[4rem]
-        md:rounded-e-[7rem] lg:rounded-e-[10rem] text-center md:text-left 2xl:max-w-[96rem] 2xl:mx-auto">
+      <section id="alowishus" className="relative mt-12 pt-12 px-4 lg:pt-28 bg-gradient-to-t to-neutral-ultraLightGray from-neutral-veryLightGray rounded-e-[4rem]
+        md:rounded-e-[7rem] lg:rounded-e-[10rem] text-center md:text-left 2xl:max-w-[96rem] 2xl:mx-auto scroll-mt-20">
         <img 
           src="images\8a4bc2a677e8dad6745d815c474ea85749d69062.png" 
           alt="" 

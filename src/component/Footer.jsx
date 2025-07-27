@@ -25,7 +25,7 @@ const icons = [
 function Footer() {
   return (
     <>
-      <footer className="mt-24 lg:mt-36 2xl:max-w-[96rem] 2xl:mx-auto">
+      <footer id="contact-us" className="mt-24 lg:mt-36 2xl:max-w-[96rem] 2xl:mx-auto scroll-mt-28">
         <div className="space-y-16 md:space-y-24 mb-12 lg:mb-24">
           <div className="flex flex-col md:flex-row justify-between gap-14 md:gap-10">
             <div className="max-w-[28.125rem] md:max-w-[21.875rem] lg:max-w-[28.125rem] xl:max-w-[35rem] space-y-4 lg:space-y-8">

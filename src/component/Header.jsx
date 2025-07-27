@@ -31,7 +31,8 @@ function Header() {
 
   return (
     <>
-      <header className="flex justify-between items-center gap-4 overflow-hidden 2xl:max-w-[100rem] 2xl:mx-auto">
+      <header className="flex justify-between items-center gap-4 overflow-hidden 2xl:max-w-[100rem] 2xl:mx-auto fixed z-50 right-0 left-0 top-0 
+        p-4 sm:px-10 lg:px-16 xl:px-24 bg-neutral-ultraLightGray shadow-md">
         <div className="">
           <img 
             src="images/alowishus-logo.png" 
@@ -47,19 +48,19 @@ function Header() {
         </div>
 
         {!isOpen && (
-          <div className="absolute top-8 right-6 sm:right-10 text-2xl md:hidden">
+          <div className="absolute top-6 right-6 sm:right-10 text-2xl md:hidden">
             <i className="fa-solid fa-bars-staggered cursor-pointer" onClick={() => setIsOpen(true)}></i>
           </div>
         )}
         
         <nav className={`md:relative flex flex-col md:flex-row md:items-center gap-8 xl:gap-10 bg-neutral-veryLightGray md:bg-transparent pt-24 
           p-8 md:p-0 top-0 fixed right-0 h-full w-3/4 md:w-auto md:h-auto md:right-0 shadow-lg shadow-neutral-ultraLightGray md:shadow-none transition-all duration-700 
-          z-20 md:z-0 text-[1.125rem] md:text-[0.9375rem] font-medium text-neutral-veryDarkGray ${isOpen ? 'translate-x-0' : 'translate-x-full md:translate-x-0'}`}>
+          z-20 md:z-0 text-[1.125rem] md:text-base lg:text-lg font-medium text-neutral-veryDarkGray ${isOpen ? 'translate-x-0' : 'translate-x-full md:translate-x-0'}`}>
           <ul className="flex flex-col md:flex-row gap-6 md:gap-8 xl:gap-10">
-            <li><a href="#" className="hover:underline">Cafe Menu</a></li>
-            <li><a href="#" className="hover:underline">About Us</a></li>
-            <li><a href="#" className="hover:underline">Find Us</a></li>
-            <li><a href="#" className="hover:underline">Alowishus Catering</a></li>
+            <li><a href="#home" className="hover:underline">Home</a></li>
+            <li><a href="#alowishus" className="hover:underline">Alowishus</a></li>
+            <li><a href="#customers" className="hover:underline">Customers</a></li>
+            <li><a href="#contact-us" className="hover:underline">Contact Us</a></li>
           </ul>
           
           <hr className="md:hidden bg-neutral-dimGray h-0.5"/>
@@ -77,7 +78,7 @@ function Header() {
           </div>
 
           {isOpen && (
-            <div className="absolute top-8 right-6 sm:right-10 text-3xl md:hidden" 
+            <div className="absolute top-6 right-6 sm:right-10 text-3xl md:hidden" 
               onClick={() => setIsOpen(false)}>
               <i className="fa-solid fa-xmark cursor-pointer"></i>
             </div>
